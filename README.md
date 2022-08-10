@@ -65,6 +65,15 @@ Extreme Gradient Boosting (XGBoost) is an open source library with an efficient 
 implementation of the gradient boosting framework. It is an ensemble boosting technique that involves building multiple individual base learners sequentially and combines them to obtain more accurate and powerful predictive model.
 
 **Run**
-Both the models can be executed through the colab links provided in the respective models in the root/[Source_Code](https://github.com/Srikanth635/COMNETS/tree/main/Source_Code)  folder.
+
+Once after the dataset is built we performed one-hot encoding for the categorical features and standardization to bring the features under same scale and center their mean values. Both the models can be executed through the colab links provided in the respective models in the root/[Source_Code](https://github.com/Srikanth635/COMNETS/tree/main/Source_Code)  folder.
 
 All the evaluation graphs and results are available in root/[Results/Evaluation Graphs](https://github.com/Srikanth635/COMNETS/tree/main/Results/Evalaution%20Graphs) folder
+
+**Project Summary**
+
+In this work, we've taken few of the simulations parameters i.e., 10 as features for predicitng 4 target variables. And the range of values for the parameter 'NumNodes' are from 10 to 1000. Considering the variablity and size of the dataset available we went with tree based algorithms for building the predictive models and the results obtained were satisfactory inspite of having some imbalances in the dataset.
+
+## Future Scope
+
+The work can be extended by incorporating more parameters as features and implementing through complex models like neural networks. The size of dataset can be increased which helps in figuring out more complex patterns in the data.
